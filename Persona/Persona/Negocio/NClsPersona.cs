@@ -11,10 +11,10 @@ namespace Persona.Negocio
     {
         public String Hablar(ClsPersona persona)
         {
-            return " La persona de nombre " + persona.Nombre + " Esta hablando";
+            return " La persona de nombre " + persona.Nombre + " Está hablando";
         }
         public String Caminar(ClsPersona persona)
         { 
-           
-    }
+           return " La persona de nombre " + persona.Nombre + " Está caminando";
+        }
 }
