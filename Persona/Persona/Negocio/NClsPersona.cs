@@ -11,25 +11,16 @@ namespace Persona.Negocio
     {
         public String Hablar(ClsPersona persona)
         {
+<<<<<<< HEAD
             return " La persona de nombre " + persona.Nombre + " Está hablando ";
 
+=======
+            return " La persona de nombre " + persona.Nombre + " Está hablando";
+>>>>>>> parent of 9364cd8 (Negocio 1)
         }
         public String Caminar(ClsPersona persona)
         {
-            return " La persona de nombre " + persona.Nombre + " Está caminando ";
-
+            return " La persona de nombre " + persona.Nombre + " Está caminando";
         }
-
-        public String Reír(ClsPersona persona)
-        {
-            return " La persona de nombre " + persona.Nombre + " Está riendo";
-
-        }
-        public String Observar(ClsPersona persona)
-        {
-            return " La persona de nombre " + persona.Nombre + " Está observando ";
-
-        }
-
     }
 }
