@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Persona.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,12 @@ namespace Persona.Negocio
 {
     class NClsPersona
     {
+        public String Hablar(ClsPersona persona)
+        {
+            return " La persona de nombre " + persona.Nombre + " Esta hablando";
+        }
+        public String Caminar(ClsPersona persona)
+        { 
+           
     }
 }
