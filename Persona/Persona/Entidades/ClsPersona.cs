@@ -8,5 +8,11 @@ namespace Persona.Entidades
 {
     class ClsPersona
     {
+
+        private int edad;
+        private String nombre;
+
+        public int Edad { get => edad; set => edad = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
     }
 }
