@@ -9,10 +9,8 @@ namespace Persona.Entidades
     class ClsPersona
     {
 
-        private int edad;
-        private String nombre;
+        private int nombre;
+        private String edad;
 
-        public int Edad { get => edad; set => edad = value; }
-        public string Nombre { get => nombre; set => nombre = value; }
     }
 }
